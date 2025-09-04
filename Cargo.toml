@@ -1,0 +1,38 @@
+[package]
+name = "rs-dir2df2sql"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.rs-dirents2meta2rbat]
+version = "0"
+default-features = false
+features = [
+]
+
+[dependencies.tokio]
+version = "1"
+default-features = false
+features = [
+	"fs",
+]
+
+[dependencies.tokio-stream]
+version = "0"
+default-features = false
+features = [
+	"fs",
+]
+
+[dependencies.datafusion]
+version = "49"
+default-features = false
+features = [
+	"compression",
+	"datetime_expressions",
+	"encoding_expressions",
+	"nested_expressions",
+	"recursive_protection",
+	"regex_expressions",
+	"string_expressions",
+	"unicode_expressions",
+]
